@@ -1,0 +1,42 @@
+$bg: #e9ebec;
+
+.wrp-menu-list {
+    width: 40vw;
+    height: 100vh;
+    margin: 0px;
+    padding: 20px;
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    align-content: start;
+    row-gap: 20px;
+    column-gap: 20px;
+    float: left;
+    
+    .food-box {
+        width: 90%;
+        height: min-content;
+
+        border-radius: 10px;
+        overflow: hidden;
+
+        .food-image {
+            overflow: hidden;
+            aspect-ratio: 1/1;
+
+            img {
+                width: 100%;
+                aspect-ratio: 1/1;
+            }
+        }
+
+        .food-name {
+            width: 100%;
+            background-color: white;
+            font-weight: bold;
+            text-align: center;
+            white-space: nowrap;
+            font-size: 20px;
+        }
+    }
+}

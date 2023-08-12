@@ -1,0 +1,12 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  overflow-x: hidden;
+  background-color: #e9ebec;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lato', sans-serif;
+}
