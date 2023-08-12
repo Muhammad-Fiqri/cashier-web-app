@@ -236,4 +236,80 @@ $main: #495da7;
             }
         }
     }
+
+    .save-bill-popup {
+        position: absolute;
+        background-color: $main;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        width: 50vw;
+        height: 50vh;
+        border: 0px;
+        border-radius: 20px;
+
+        display: none;
+        justify-content: center;
+        align-items: center;
+        font-size: 50px;
+
+        p {
+            color: white;
+        }
+
+        svg {
+            position: absolute;
+            transform: scale(2);
+            right: 5%;
+            top: 7%;
+        }
+    }
+
+    .charge-popup {
+        position: absolute;
+        background-color: $main;
+        top:50%;
+        left:50%;
+        transform: translate(-50%,-50%);
+        width: 50vw;
+        height: 50vh;
+        border: 0px;
+        border-radius: 20px;
+
+        display: grid;
+        grid-template-rows: 1fr 1fr 3fr 2fr 3fr;
+        padding: 20px;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        font-size: 50px;
+
+        p {
+            color: white;
+            text-align: center;
+            font-size: 40px;
+        }
+
+        input {
+            width: 90%;
+            height: 60%;
+            border: 0px;
+            outline: none;
+            border-radius: 10px;
+            font-size: 40px;
+        }
+
+        button {
+            width: 90%;
+            height: 60%;
+            border-radius: 10px;
+        }
+
+        svg {
+            position: absolute;
+            transform: scale(2);
+            right: 5%;
+            top: 7%;
+        }
+    }
 }
